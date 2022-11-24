@@ -49,6 +49,8 @@ body {
 
 #main {
     background-color: #6f233f;
+    width: 100%;
+    height: 200vh;
 }
 
 #teste {
