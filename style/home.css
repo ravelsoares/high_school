@@ -1,4 +1,4 @@
-.divprimaria{
+/* .divprimaria{
     display: flex;
 
 }
@@ -10,4 +10,8 @@ img{
 .entrar{
     margin-top: 300px;
     margin-left: 300px;
+} */
+
+body {
+    background-color: #6f233f;
 }
