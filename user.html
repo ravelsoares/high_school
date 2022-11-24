@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Perfil</title>
+    <link rel="stylesheet" href="style/user.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="barra-principal bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="#" class="navbar-brand">High School</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+                aria-controls="textoNavbar" aria-expanded="false" aria-label="Alternar Navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="textoNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="home.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="materias.html" class="nav-link">Matérias</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Perfil</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <a href="login.html">Logout</a>
+                </span>
+            </div>
+        </nav>
+    </div>
+    <!-- <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="#" class="navbar-brand">High School</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+                    aria-controls="textoNavbar" aria-expanded="false" aria-label="Alternar Navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="textoNavbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item topo">
+                            <a href="home.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item active topo">
+                            <a href="#" class="nav-link">Matérias</a>
+                        </li>
+                        <li class="nav-item topo">
+                            <a href="user.html" class="nav-link">Perfil</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <a href="login.html">Logout</a>
+                    </span>
+                </div> -->
+    <!-- <div class="col-md-2" id="barra">
+                    <ul class="bg-white">
+                        <div class="bg-white mt-5">
+                            <a href="user.html">
+                                <li class="bg-white" style="text-decoration: none;">Meu Perfil</li>
+                            </a>
+                        </div>
+                        <div class="mt-3">
+                            <a href="materias.html" id="carrinho">
+                                <li class="bg-white">Matérias</li>
+                            </a>
+                        </div>
+                        <div class="mt-3">
+                            <a href="#">
+                                <li class="bg-white">Configurações</li>
+                            </a>
+                        </div>
+                        <div class="mt-3">
+                            <a href="#">
+                                <li class="bg-white" onclick="">Sair</li>
+                            </a>
+                        </div>
+                    </ul>
+                </div> -->
+    <div class="col-md-10" id="main">
+        <div class="row align-items-center ">
+            <div class="col-md-1"></div>
+            <div id="principal" class="col-md-10">
+                <div id="titulo" class="text-center text-light">
+                    <h1>Estatísticas</h1>
+                </div>
+                <div id="avatar">
+                    <div id="image" class="text-center">
+                        <img src="images/avatar.jpg" alt="" class="rounded-circle" height="100px" width="100px">
+                    </div>
+                </div>
+                <div id="infos" class="text-center">
+                    <div id="pontuacao" class="text-light">
+                        Pontos: 1000
+                    </div>
+                    <div id="perguntas-respondidas" class="text-light">
+                        Perguntas respondidas: 35
+                    </div>
+                    <div id="Acertos" class="text-light">
+                        Perguntas respondidas: 20
+                    </div>
+                    <div id="Erros" class="text-light">
+                        Perguntas respondidas: 15
+                    </div>
+                    <div id="melhordesempenho" class="text-light">
+                        Melhor Desempenho: Matemática
+                    </div>
+                    <div id="piordesempenho" class="text-light">
+                        Pior Desempenho: Sociologia
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
