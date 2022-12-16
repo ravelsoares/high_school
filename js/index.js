@@ -1,25 +1,25 @@
 const express = require('express')
-
+const path = require('path')
 const server = express();
 
-server.get('/index', () => {
-    console.log('Você está acessando a página inicial...')
+server.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname + '/../index.html'))
 })
 
-server.get('/home', () => {
-    console.log('Você está acessando a página home...')
+server.get('/home', (req, res) => {
+    res.sendFile(path.join(__dirname + '/../home.html'))
 })
 
-server.get('/materias', () => {
-    console.log('Você está acessando a página materias...')
+server.get('/materias', (req, res) => {
+    res.sendFile(path.join(__dirname + '/../materias.html'))
 })
 
-server.get('/register', () => {
-    console.log('Você está acessando a página register...')
+server.get('/register', (req, res) => {
+    res.sendFile(path.join(__dirname + '/../register.html'))
 })
 
-server.get('/user', () => {
-    console.log('Você está acessando a página user...')
+server.get('/user', (req, res) => {
+    res.sendFile(path.join(__dirname + '/../user.html'))
 })
 
 
