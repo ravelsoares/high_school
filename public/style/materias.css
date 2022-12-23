@@ -1,0 +1,54 @@
+.list:link,
+.list:visited {
+    text-decoration: none;
+    color: white;
+
+}
+
+.list:hover {
+    text-decoration: underline;
+    color: rgb(186, 156, 84)
+}
+
+.list:active {
+    text-decoration: none
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+
+}
+
+.item {
+
+    background-color: rgb(97, 30, 30);
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.list {
+    background-color: rgb(97, 30, 30);
+    padding: 20px;
+}
+
+h2 {
+    background-color: aliceblue;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin: 0px;
+}
+
+
+.topo {
+    background-color: transparent;
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: #6f233f;
+}
+
+#square {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.senha {
+    float: right;
+}
+
+/* .box-form {
+    padding-top: 200px
+} */
+input {
+    height: 40px;
+    width: 50%;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    font-weight: 500;
+}
+
+
+button {
+    border-color: transparent;
+}
+
+#login {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
