@@ -6,23 +6,23 @@ server.use(express.static('public'));
 
 
 server.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname + '/index.html'))
+    res.sendFile(path.join(__dirname + '/public/index.html'))
 })
 
 server.get('/home', (req, res) => {
-    res.sendFile(path.join(__dirname + '/home.html'))
+    res.sendFile(path.join(__dirname + '/public/home.html'))
 })
 
 server.get('/materias', (req, res) => {
-    res.sendFile(path.join(__dirname + '/materias.html'))
+    res.sendFile(path.join(__dirname + '/public/materias.html'))
 })
 
 server.get('/register', (req, res) => {
-    res.sendFile(path.join(__dirname + '/register.html'))
+    res.sendFile(path.join(__dirname + '/public/register.html'))
 })
 
 server.get('/user', (req, res) => {
-    res.sendFile(path.join(__dirname + '/user.html'))
+    res.sendFile(path.join(__dirname + '/public/user.html'))
 })
 
 
